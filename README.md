@@ -104,9 +104,10 @@ The dataset was imported into Python using Pandas for initial analysis.
 
 
 
-import pandas as pd
+```import pandas as pd
 
 dataframe = pd.read\_csv("Zomato data.csv")
+```
 
 
 
@@ -130,11 +131,12 @@ Example transformation:
 
 
 
-def handleRate(value):
+```def handleRate(value):
 
 &#x20;   value = str(value).split('/')
 
 &#x20;   return float(value\[0])
+```
 
 
 
@@ -250,13 +252,13 @@ The insights generated from this analysis can help restaurants and food delivery
 
 
 
-git clone https://github.com/yourusername/zomato-data-analysis.git
+`git clone https://github.com/yourusername/zomato-data-analysis.git`
 
 2️⃣ Install Required Libraries
 
 
 
-pip install pandas numpy matplotlib seaborn
+`pip install pandas numpy matplotlib seaborn`
 
 
 
@@ -297,4 +299,5 @@ Zomato-Data-Analysis
 
 
 ⭐ Goal of this project: Demonstrate practical skills in Python-based data analysis, data visualization, and exploratory data analysis (EDA).
+
 
